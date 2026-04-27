@@ -1,0 +1,18 @@
+- name: Paivitetaan paketit ja asennetaan Apache, PHP ja MariaDB
+  apt:
+    name:
+      - apache2
+      - mariadb-server
+      - php
+      - libapache2-mod-php
+      - php-mysql
+    state: latest
+    update_cache: yes
+   notify: "Restart Apache"
+
+- name: Varmistetaan etta MariaDB on Kaynnissa
+  service:
+    name: mariadb
+    state: started
+    enabled: yes
+  notify: "Restart MariaDB"

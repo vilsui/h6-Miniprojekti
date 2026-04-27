@@ -1,0 +1,13 @@
+---
+- name: Wordpress Alustan Automaatio
+  hosts: localhost
+  connection: local
+  become: true
+
+  tasks:
+    - name: Asennetaan asennukset (Villen osuus)
+      include_tasks: tasks/install.yml
+
+  handlers:
+    -name: Ladataan handlerit (Samin osuus)
+     include_tasks: handlers/main.yml
