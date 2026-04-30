@@ -9,5 +9,5 @@
       include_tasks: tasks/install.yml
 
   handlers:
-    -name: Ladataan handlerit (Samin osuus)
-     include_tasks: handlers/main.yml
+    - name: Ladataan handlerit (Samin osuus)
+      include_tasks: handlers/main.yml
