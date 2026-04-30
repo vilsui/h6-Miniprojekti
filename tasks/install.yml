@@ -8,7 +8,7 @@
       - php-mysql
     state: latest
     update_cache: yes
-   notify: "Restart Apache"
+  notify: "Restart Apache"
 
 - name: Varmistetaan etta MariaDB on Kaynnissa
   service:
