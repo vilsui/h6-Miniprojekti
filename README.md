@@ -46,7 +46,6 @@ Automaation tuloksena palvelimelle on asennettu ja konfiguroitu:
 - PHP ja tarvittavat moduulit.
 - Automaattisesti generoitu index.html -testisivu, joka varmistaa ympäristön toimivuuden.
 
-Lopputuleman tarkistus komennolla: curl localhost
 ____________________________________________________________________________________________________________________
 
 Jatkojalostus
