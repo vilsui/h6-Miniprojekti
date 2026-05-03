@@ -18,6 +18,7 @@ Projekti on jaettu modulaarisesti taskeihin ja handlereihin:
 Playbook: playbook.yml ohjaa koko asennusprosessia.
 
 Taskit: Järjestelmän päivitys, Apachen, PHP:n ja MariaDB:n asennus sekä testisivun luonti.
+
 Handlerit: Palveluiden (Apache, MariaDB) hallittu uudelleenkäynnistys konfiguraatiomuutosten jälkeen.
 
 Asennus, käyttö ja testaus
@@ -28,9 +29,13 @@ Ajetaan playbook: ansible-playbook playbook.yml -i hosts.ini --ask-become-pass
 
 Testataan
 
+
 PHP testi: curl localhost/testi.php
+
 Nettisivun testaus: curl localhost
+
 apache2 testaus: systemctl status apache2
+
 mariaDB'n testaus: sudo mariadb -e "SHOW DATABASES;"
 
 ____________________________________________________________________________________________________________________
