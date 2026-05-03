@@ -18,7 +18,7 @@ Projekti on jaettu modulaarisesti taskeihin ja handlereihin:
 Playbook: playbook.yml ohjaa koko asennusprosessia.
 
 Taskit: Järjestelmän päivitys, Apachen, PHP:n ja MariaDB:n asennus sekä testisivun luonti.
-Handlerit (Samin osuus): Palveluiden (Apache, MariaDB) hallittu uudelleenkäynnistys konfiguraatiomuutosten jälkeen.
+Handlerit: Palveluiden (Apache, MariaDB) hallittu uudelleenkäynnistys konfiguraatiomuutosten jälkeen.
 
 Asennus, käyttö ja testaus
 
