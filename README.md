@@ -27,16 +27,13 @@ Kloonataan repo: git clone https://github.com/vilsui/h6-Miniprojekti
 Siirrytään kansioon: cd h6-Miniprojekti
 Ajetaan playbook: ansible-playbook playbook.yml -i hosts.ini --ask-become-pass 
 
+
 Testataan
 
-
-PHP testi: curl localhost/testi.php
-
-Nettisivun testaus: curl localhost
-
-apache2 testaus: systemctl status apache2
-
-mariaDB'n testaus: sudo mariadb -e "SHOW DATABASES;"
+- PHP testi: curl localhost/testi.php
+- Nettisivun testaus: curl localhost
+- apache2 testaus: systemctl status apache2
+- mariaDB'n testaus: sudo mariadb -e "SHOW DATABASES;"
 
 ____________________________________________________________________________________________________________________
 
