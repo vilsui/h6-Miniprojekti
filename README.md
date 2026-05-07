@@ -19,9 +19,9 @@ Projekti pystyttää LAMP-pinon, joka on dynaamisten verkkosovellusten (kuten Wo
 
 Eri komponenttien rooli järjestelmässä:
 
-Apache2	HTTP-verkkopalvelin: Toimii "ovena"
-MariaDB	Tietokanta: Toimii järjestelmän "muistina", jonne WordPress tallentaa artikkelit, käyttäjät ja asetukset.
-PHP	Skriptikieli: Toimii "moottorina", joka suorittaa WordPressin logiikan ja hakee tiedot tietokannasta.
+- Apache2	HTTP-verkkopalvelin: Toimii "ovena"
+- MariaDB	Tietokanta: Toimii järjestelmän "muistina", jonne WordPress tallentaa artikkelit, käyttäjät ja asetukset.
+- PHP	Skriptikieli: Toimii "moottorina", joka suorittaa WordPressin logiikan ja hakee tiedot tietokannasta.
 
 Modulaarinen rakenne:
 
