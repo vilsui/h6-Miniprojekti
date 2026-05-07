@@ -69,4 +69,5 @@ Jatkojalostus
 - Tietoturvapaketti: UFW-palomuurin konfigurointi sallimaan vain portit 80 (HTTP) ja 443 (HTTPS).
 - Salaus: Let's Encrypt -sertifikaattien automaattinen haku ja HTTPS-pakotus.
 
-<img width="482" height="702" alt="image" src="https://github.com/user-attachments/assets/7c6a0089-243a-4c48-b6bd-a5732e1cf4d8" />
+
+<img width="1862" height="1532" alt="image" src="https://github.com/user-attachments/assets/12dee8fb-9734-4f0a-a8c3-6b8dda36c4a7" />
