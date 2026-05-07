@@ -8,9 +8,9 @@ Projektin tavoitteena on siirtyä manuaalisesta järjestelmänhallinnasta modern
 
 Tämä mahdollistaa:
 
-Skaalautuvuuden: Saman konfiguraation ajamisen usealle eri palvelimelle samanaikaisesti.
-Idempotenssin: Ansible varmistaa palvelimen tilan tekemättä turhia muutoksia jos asetukset ovat jo kunnossa.
-Standardoinnin: Inhimilliset virheet poistuvat, kun asennus noudattaa täsmälleen samaa koodia.
+- Skaalautuvuuden: Saman konfiguraation ajamisen usealle eri palvelimelle samanaikaisesti.
+- Idempotenssin: Ansible varmistaa palvelimen tilan tekemättä turhia muutoksia jos asetukset ovat jo kunnossa.
+- Standardoinnin: Inhimilliset virheet poistuvat, kun asennus noudattaa täsmälleen samaa koodia.
 ____________________________________________________________________________________________________________________
 
 Tekninen arkkitehtuuri (LAMP-pino)
