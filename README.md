@@ -2,7 +2,7 @@ Palvelinten Hallinta, Palvelinten hallinta - ICI001AS3A-3013 - to 11:00 pa5001 -
 h6 Miniprojekti
 Sami Ylikörkkö, Ville Suikki
  
-Projektin tarkoitus
+Projektin tarkoitus ja rakenne
 
 Projektin tavoitteena on siirtyä manuaalisesta järjestelmänhallinnasta moderniin Infrastructure as Code (IaC) -malliin. Toteutimme automaation, joka muuttaa puhtaan Debian-palvelimen täysin toimivaksi ja WordPress-valmiiksi verkkopalvelinalustaksi yhdellä komennolla.
 
@@ -11,6 +11,8 @@ Tämä mahdollistaa:
 - Skaalautuvuuden: Saman konfiguraation ajamisen usealle eri palvelimelle samanaikaisesti.
 - Idempotenssin: Ansible varmistaa palvelimen tilan tekemättä turhia muutoksia jos asetukset ovat jo kunnossa.
 - Standardoinnin: Inhimilliset virheet poistuvat, kun asennus noudattaa täsmälleen samaa koodia.
+
+<img width="1862" height="1532" alt="image" src="https://github.com/user-attachments/assets/12dee8fb-9734-4f0a-a8c3-6b8dda36c4a7" />
 ____________________________________________________________________________________________________________________
 
 Tekninen arkkitehtuuri (LAMP-pino)
@@ -70,5 +72,3 @@ Jatkojalostus
 - Salaus: Let's Encrypt -sertifikaattien automaattinen haku ja HTTPS-pakotus.
 
 <img width="1862" height="1532" alt="image" src="https://github.com/user-attachments/assets/50402ebf-7844-4a0a-8324-80408014fc09" />
-
-<img width="1862" height="1532" alt="image" src="https://github.com/user-attachments/assets/12dee8fb-9734-4f0a-a8c3-6b8dda36c4a7" />
