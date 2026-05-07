@@ -8,9 +8,9 @@ Projektin tavoitteena on siirtyä manuaalisesta järjestelmänhallinnasta modern
 
 Tämä mahdollistaa:
 
-Skaalautuvuuden: Saman konfiguraation ajamisen yhdelle tai sadalle palvelimelle samanaikaisesti.
+Skaalautuvuuden: Saman konfiguraation ajamisen usealle eri palvelimelle samanaikaisesti.
 Idempotenssin: Ansible varmistaa palvelimen tilan tekemättä turhia muutoksia jos asetukset ovat jo kunnossa.
-Standardoinnin: Inhimilliset virheet poistuvat, kun jokainen asennus noudattaa täsmälleen samaa koodia.
+Standardoinnin: Inhimilliset virheet poistuvat, kun asennus noudattaa täsmälleen samaa koodia.
 ____________________________________________________________________________________________________________________
 
 Tekninen arkkitehtuuri (LAMP-pino)
@@ -53,9 +53,9 @@ Testaus ja laadunvarmistus
 Automaation onnistuminen varmistetaan neljällä eri testillä, jotka kattavat koko pinon:
 
 1.	Varmistetaan, että verkkopalvelin on aktiivinen ja käynnissä: systemctl status apache2 
-2.	Sovelluskerroksen testi: curl localhost/testi.php – Testataan, että PHP-tulkki on integroitu oikein Apacheen ja pystyy tuottamaan dynaamista sisältöä esim. kellonajan.
+2.	Sovelluskerroksen testi: curl localhost/testi.php – Testataan, että PHP-tulkki on integroitu oikein Apacheen ja pystyy tuottamaan dynaamista sisältöä. Tässä tapauksessa kellonajan.
 3.	Viestintätesti: curl localhost varmistaa että automaattisesti generoitu testisivu näkyy ulospäin.
-4.	Tietokantatesti: sudo mariadb -e "SHOW DATABASES;" – Varmistetaan, että MariaDB-moottori on pystyssä
+4.	Tietokantatesti: sudo mariadb -e "SHOW DATABASES;" – Varmistetaan, että MariaDB on pystyssä
 
 
 Lopputulema ja WordPress-yhteys
